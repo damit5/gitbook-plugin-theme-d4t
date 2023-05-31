@@ -13,7 +13,7 @@ module.exports = {
     },
     hooks: {
         finish: function () {
-            const configOption = this.config.get('pluginsConfig')['doorTheme'];
+            const configOption = this.config.get('pluginsConfig')['d4t'];
             const output = configOption ? (configOption.output || '_book') : '_book';
             let pathFile;
 

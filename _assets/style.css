@@ -23,7 +23,7 @@ body {
     background: hsla(0, 0%, 53%, 0.1);
 }
 .markdown-section a{
-    color: #EE8866;
+    color: #E74C3C;
 }
 .markdown-section h1,
 .markdown-section h2,
@@ -71,12 +71,12 @@ body {
 }
 
 .book-summary ul.summary li.active {
-    border-right: 3px solid #EE8866;
+    border-right: 3px solid #E74C3C;
     background: #f3f1f1;
 }
 
 .book-summary ul.summary li.active > a {
-    color: #EE8866;
+    color: #E74C3C;
     text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ body {
     padding: 0;
     border: none;
     border-radius: .25rem;
-    background: #EE8866;
+    background: #E74C3C;
     user-select: none;
 }
 
@@ -185,11 +185,11 @@ body {
 
 .header-inner .header-nav li a:hover,
 .header-inner .header-nav li a.active {
-    color: #EE8866;
+    color: #E74C3C;
 }
 
 .header-inner .header-nav li a.active:hover {
-    cursor: #EE8866;
+    cursor: #E74C3C;
 }
 
 @media (max-width: 768px) {
@@ -231,12 +231,12 @@ body {
 }
 
 .book-anchor a:hover {
-    color: #EE8866;
+    color: #E74C3C;
     text-decoration: none;
 }
 
 .book-anchor .selected {
-    color: #EE8866;
+    color: #E74C3C;
     text-decoration: none;
     font-weight: bold;
 }

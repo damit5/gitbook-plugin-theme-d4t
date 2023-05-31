@@ -1,3 +1,7 @@
+## 说明
+
+基于[door](https://github.com/key7men/gitbook-plugin-theme-door)的微调。
+
 ## gitbook-plugin-theme-door
 > 含有Header导航，Sidebar导航以及MiniMap导航的gitbook主题。
 
@@ -11,14 +15,14 @@
     "splitter",
     "hide-element",
     "code",
-    "theme-door",
+    "theme-d4t",
     "-lunr",
     "-search",
     "-sharing",
     "search-pro-fixed"
   ],
   "variables": {
-    "doorTheme": {
+    "d4t": {
       "nav": [
         {
           "url": "xxxxx",
@@ -37,7 +41,7 @@
     "hide-element": {
       "elements": [".gitbook-link"]
     },
-    "doorTheme": {
+    "d4t": {
       "search-placeholder": "请输入关键字搜索",
       "logo": "./_media/logo.svg",
       "favicon": "./_media/favicon.ico"

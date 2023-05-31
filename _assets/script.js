@@ -44,7 +44,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         $title.text(gitbook.state.config.title);
 
         const $search = $('#book-search-input');
-        const placeholder = gitbook.state.config.pluginsConfig['doorTheme']['search-placeholder'] || '输入关键字搜索';
+        const placeholder = gitbook.state.config.pluginsConfig['d4t']['search-placeholder'] || '输入关键字搜索';
         $search.find('input').attr('placeholder',placeholder);
         $search.append("<span id='searchBtn'>搜索</span>");
         $search.focus();
