@@ -15,7 +15,7 @@
 
 ```json
 {
-    "title": "",
+    "title": "d4m1ts 知识库",
     "author": "d4m1ts",
     "description": "个人的部分知识技能，倾向于使用知识库的方式进行总结回顾自己",
     "theme-default":
@@ -42,7 +42,8 @@
         "flexible-alerts",
         "prism",
         "back-to-top-button",
-        "auto-scroll-table"
+        "auto-scroll-table",
+        "d4test"
     ],
     "variables":
     {
@@ -70,6 +71,7 @@
             "elements":
             [
                 ".gitbook-link",
+                ".title",
                 ".treeview__copyright",
                 ".treeview__main-title"
             ]
