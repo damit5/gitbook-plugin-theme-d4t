@@ -10,6 +10,9 @@
 ![主题样式](./style.png)
 
 ### 使用方式
+
+编写`book.json`文件如下
+
 ```json
 {
     "title": "",
@@ -37,7 +40,9 @@
         "tbfed-pagefooter",
         "github",
         "flexible-alerts",
-        "prism"
+        "prism",
+        "back-to-top-button",
+        "auto-scroll-table"
     ],
     "variables":
     {
@@ -72,8 +77,8 @@
         "d4t":
         {
             "search-placeholder": "请输入关键字搜索",
-            "logo": "./_media/logo.svg",
-            "favicon": "./_media/favicon.ico"
+            "logo": "/README.assets/logo.svg",
+            "favicon": "/README.assets/favicon.ico"
         },
         "donate":
         {
@@ -141,5 +146,12 @@
         }
     }
 }
+```
+
+安装启动
+
+```shell
+gitbook install
+gitbook serve
 ```
 

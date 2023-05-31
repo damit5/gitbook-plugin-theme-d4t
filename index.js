@@ -31,7 +31,7 @@ module.exports = {
             pathFile = configOption && configOption.logo;
             if(pathFile){
                 const logoPath = path.join(process.cwd(), pathFile);
-                const pluginLogoPath = path.join(process.cwd(), output, 'gitbook','gitbook-plugin-theme-door',"logo.svg");
+                const pluginLogoPath = path.join(process.cwd(), output, 'gitbook','gitbook-plugin-theme-d4t',"logo.svg");
                 if (fs.existsSync(logoPath)) {
                     fs.writeFileSync(pluginLogoPath, fs.readFileSync(logoPath));
                 }
