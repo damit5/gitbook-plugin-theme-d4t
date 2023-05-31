@@ -2,7 +2,8 @@
 
 基于[door](https://github.com/key7men/gitbook-plugin-theme-door)的微调。
 
-## gitbook-plugin-theme-door
+## gitbook-plugin-theme-d4t
+
 > 含有Header导航，Sidebar导航以及MiniMap导航的gitbook主题。
 
 ### 主题样式
@@ -11,42 +12,134 @@
 ### 使用方式
 ```json
 {
-  "plugins": [
-    "splitter",
-    "hide-element",
-    "code",
-    "theme-d4t",
-    "-lunr",
-    "-search",
-    "-sharing",
-    "search-pro-fixed"
-  ],
-  "variables": {
-    "d4t": {
-      "nav": [
-        {
-          "url": "xxxxx",
-          "target": "_blank",
-          "name": "论坛"
-        },
-        {
-          "url": "xxxxx",
-          "target": "_blank",
-          "name": "登录"
-        }
-      ]
-    }
-  },
-  "pluginsConfig": {
-    "hide-element": {
-      "elements": [".gitbook-link"]
+    "title": "",
+    "author": "d4m1ts",
+    "description": "个人的部分知识技能，倾向于使用知识库的方式进行总结回顾自己",
+    "theme-default":
+    {
+        "showLevel": true
     },
-    "d4t": {
-      "search-placeholder": "请输入关键字搜索",
-      "logo": "./_media/logo.svg",
-      "favicon": "./_media/favicon.ico"
+    "plugins":
+    [
+        "splitter",
+        "hide-element",
+        "code",
+        "theme-d4t",
+        "-lunr",
+        "-search",
+        "-sharing",
+        "search-pro-fixed",
+        "-highlight",
+        "chapter-fold",
+        "expandable-chapters",
+        "lightbox",
+        "donate",
+        "tbfed-pagefooter",
+        "github",
+        "flexible-alerts",
+        "prism"
+    ],
+    "variables":
+    {
+        "d4t":
+        {
+            "nav":
+            [
+                {
+                    "url": "https://markdown.gm7.org/",
+                    "target": "_blank",
+                    "name": "markdown在线"
+                },
+                {
+                    "url": "https://rshell.gm7.org/",
+                    "target": "_blank",
+                    "name": "Reverse Shell Generator"
+                }
+            ]
+        }
+    },
+    "pluginsConfig":
+    {
+        "hide-element":
+        {
+            "elements":
+            [
+                ".gitbook-link",
+                ".treeview__copyright",
+                ".treeview__main-title"
+            ]
+        },
+        "d4t":
+        {
+            "search-placeholder": "请输入关键字搜索",
+            "logo": "./_media/logo.svg",
+            "favicon": "./_media/favicon.ico"
+        },
+        "donate":
+        {
+            "wechat": "/README.assets/gzh_0.png",
+            "alipay": "/README.assets/gzh_1.png",
+            "title": "",
+            "button": "支持作者",
+            "alipayText": "点点广告🙏",
+            "wechatText": "关闭Adblock"
+        },
+        "tbfed-pagefooter":
+        {
+            "copyright": "Copyright &copy d4m1ts 2023",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github":
+        {
+            "url": "https://github.com/damit5"
+        },
+        "flexible-alerts":
+        {
+            "style": "callout",
+            "comment":
+            {
+                "label": "Comment",
+                "icon": "fa fa-comments",
+                "className": "info"
+            }
+        },
+        "prism":
+        {
+            "css":
+            [
+                "prismjs/themes/prism-tomorrow.css"
+            ],
+            "lang":
+            {
+                "flow": "typescript"
+            },
+            "ignore":
+            [
+                "mermaid",
+                "eval-js",
+                "ascii",
+                "result",
+                "manifest",
+                "payload",
+                "google",
+                "tree",
+                "java_out",
+                "log4j2",
+                "jsp",
+                "class",
+                "Exception",
+                "stack",
+                "c#",
+                "xml-dtd",
+                "C++",
+                "twig",
+                "jinja2",
+                "exception",
+                "tpl"
+            ]
+        }
     }
-  }
 }
 ```
 
