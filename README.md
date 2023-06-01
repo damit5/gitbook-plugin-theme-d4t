@@ -42,8 +42,7 @@
         "flexible-alerts",
         "prism",
         "back-to-top-button",
-        "auto-scroll-table",
-        "d4test"
+        "auto-scroll-table"
     ],
     "variables":
     {
