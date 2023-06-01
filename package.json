@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-theme-d4t",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A standard theme for gitbook.",
   "main": "index.js",
   "scripts": {
