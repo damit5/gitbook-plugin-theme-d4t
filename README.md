@@ -1,6 +1,10 @@
 ## 说明
 
-基于[door](https://github.com/key7men/gitbook-plugin-theme-door)的微调。
+基于[door](https://github.com/key7men/gitbook-plugin-theme-door)的二次开发，主要开发内容如下：
+
+* 完善`book.json`
+* 增加移动端适配
+* 更新目录栏追随和多级目录栏
 
 ## gitbook-plugin-theme-d4t
 
