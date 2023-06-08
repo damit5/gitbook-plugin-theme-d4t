@@ -5,6 +5,7 @@
 * 完善`book.json`
 * 增加移动端适配
 * 更新目录栏追随和多级目录栏
+* 增加了菜单栏滚动和目录栏滚动
 
 ## gitbook-plugin-theme-d4t
 
